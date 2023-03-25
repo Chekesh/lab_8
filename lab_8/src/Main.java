@@ -40,7 +40,7 @@ public class Main {
             ob.takeBook(kol);
             String[] book = new String[kol];
             for (int y=0;y<kol;y++){
-                System.out.print(y+"");
+                System.out.print((y+1)+": ");
                 String namebook = in.next();
                 book[y]=namebook;
             }
